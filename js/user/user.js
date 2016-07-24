@@ -6,6 +6,9 @@ angular.module('userModule',[])
 			getUser:function() {
 				return $http.get('https://api.github.com/users');
 			}
+			saveUser:function(user){
+				//TODO salva el usuario
+			}
 		};
 	})
 	
